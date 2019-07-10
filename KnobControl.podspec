@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #
 
   # s.source       = { :git => "http://EXAMPLE/KnobControl.git", :tag => "#{s.version}" }
-  s.source = {:path =>'./' }
+  s.source = {:path =>'https://github.com/bugaio/KnobControl.git', :tag => "#{s.version}" }
 
 
 
